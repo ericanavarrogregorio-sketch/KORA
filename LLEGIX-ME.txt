@@ -1,0 +1,1 @@
+KORA - BOTIGA EN VALENCIA\n\nPuja tots els fitxers i la carpeta assets al repositori de GitHub. La pàgina inicial index.html mostra només un QR que obri botiga.html. La botiga permet veure els tres productes, llegir-ne la descripció i afegir-los a la cistella. La cistella calcula el total, però no processa pagaments ni envia comandes.\n

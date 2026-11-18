@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="ca"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>KORA</title>
+<style>html,body{margin:0;min-height:100%;font-family:Arial,sans-serif}body{display:grid;place-items:center;background:white}#qr{width:min(72vw,360px);height:min(72vw,360px);display:grid;place-items:center}#qr img,#qr canvas{max-width:100%;max-height:100%}</style></head>
+<body><main><div id="qr" aria-label="Codi QR per a obrir la botiga KORA"></div></main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>const dest=new URL('botiga.html',location.href).href;if(window.QRCode)new QRCode(document.getElementById('qr'),{text:dest,width:340,height:340,colorDark:'#171717',colorLight:'#ffffff',correctLevel:QRCode.CorrectLevel.H});</script></body></html>
